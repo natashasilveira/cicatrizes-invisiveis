@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  align-content: center;
+}
+
+.each_slide_effect > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-size: cover;
+  height: 92vh;
+}
+
+.each_slide_effect span {
+  padding: 20px;
+  font-size: 20px;
+  /* background: #efefef; */
+  text-align: center;
+}
+
+img {
+  max-height: 92vh;
+}
