@@ -1,12 +1,18 @@
+#root {
+  --primary-color: #171B20;
+  --secondary-color: #f3b81c;
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
-  color: white;
+  
 }
 
 html, body, #root {
-  background-color: #0f0f0f;
+  background-color: var(--primary-color);
   height: 100%;
+  color: white;
 }

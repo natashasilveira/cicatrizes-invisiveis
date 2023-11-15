@@ -36,6 +36,6 @@
 }
 
 .home .btn:hover {
-  background-color: #593359;
+  background-color: var(--secondary-color);
   color: #fff;
 }

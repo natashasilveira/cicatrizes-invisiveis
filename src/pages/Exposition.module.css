@@ -1,4 +1,8 @@
-.container {
+.conteiner {
+  padding: 0 2%;
+}
+
+.content {
   display: flex;
   align-content: center;
 }
@@ -9,15 +13,20 @@
   justify-content: space-evenly;
   background-size: cover;
   height: 92vh;
+  /* margin: 0 50px; */
+  /* border: red solid 1px; */
 }
 
 .each_slide_effect span {
   padding: 20px;
   font-size: 20px;
-  /* background: #efefef; */
   text-align: center;
 }
 
 img {
   max-height: 92vh;
+}
+
+.text_info {
+  max-width: 50%;
 }
