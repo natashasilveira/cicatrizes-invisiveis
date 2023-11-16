@@ -13,20 +13,45 @@
   justify-content: space-evenly;
   background-size: cover;
   height: 92vh;
+  text-align: center;
   /* margin: 0 50px; */
   /* border: red solid 1px; */
 }
 
 .each_slide_effect span {
   padding: 20px;
-  font-size: 20px;
+  font-size: 1.4em;
   text-align: center;
+}
+
+.each_slide_effect h1, h2 {
+  text-align: center;
+}
+
+.each_slide_effect h1 {
+  font-size: 4.5em;
+  color: var(--secondary-color);
+}
+
+.each_slide_effect h2{
+  margin-top: 1em;
+  font-size: 4em;
+  text-align: center;
+}
+
+.hl_phrase {
+  /* color: var(--secondary-color); */
+  text-align: center;
+}
+
+.subtitle {
+  font-style: italic;
 }
 
 img {
   max-height: 92vh;
 }
 
-.text_info {
-  max-width: 50%;
+.text_info, .hl_phrase{
+  width: 45%;
 }

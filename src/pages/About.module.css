@@ -1,0 +1,25 @@
+.about {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  padding: 4em;
+  justify-content: space-around;
+}
+
+.info_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.2em;
+  width: 50%;
+  height: 100%;
+}
+
+.about h1 {
+  font-size: 4.5em;
+  text-align: left;
+}
+
+.about img {
+  max-width: 300px;
+}

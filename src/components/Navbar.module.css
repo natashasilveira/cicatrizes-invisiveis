@@ -14,14 +14,20 @@
 .nav_list {
   display: flex;
   list-style: none;
-  gap: 1em;
+  gap: 2em;
 }
 
-.nav_list li a {
+.nav_list li a, p {
   text-decoration: none;
   color: var(--primary-color);
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 .nav_list li a:hover {
   color: white;
+}
+
+p {
+  font-size: 1.3rem;
 }
