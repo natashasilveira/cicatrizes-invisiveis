@@ -28,11 +28,11 @@ function Exposition() {
       <Fade autoplay={false} className={styles.content} >
         {/* INÍCIO GASLIGHTING */}
         <div className={styles.each_slide_effect}>
-          <div><div>
-            {/* <img src={a4} /> */}
-            <h1>Gaslighting</h1>
-            <h2 className={styles.subtitle}>Distorção da Realidade</h2>
-          </div></div>
+          <div className={styles.slide_title}>
+            <h1>Distorção da Realidade</h1>
+            <h2 className={styles.subtitle}>Gaslighting</h2>
+          
+          </div>
         </div>
         <div className={styles.each_slide_effect}>
           <div>
@@ -68,10 +68,10 @@ function Exposition() {
         <div className={styles.each_slide_effect}>
           <div>
             <img src={love_bombing} />
-            <span className={styles.text_info}>
+            {/* <span className={styles.text_info}>
               Love bombing, ou bombardeio de amor, consiste em uma tática narcísica, caracterizada pelo excesso de atenção, comunicação, de demonstrações exageradas e excessivas de afeto, admiração e apego, como verbalizações como “Eu não sei viver sem você”, presentes exagerados ou muito caros e sem motivo especial, a fim de estabelecer poder e controle sobre a vítima. Está correlacionado com tendências narcisistas e estilos de apego inseguros e negativamente relacionado à autoestima, ou seja, pessoas que praticam tendem a comportamentos de grandiosidade, falta de empatia, baixa autoestima e falta de confiança nos outros.<br></br><br></br>
               Essa prática, inicialmente, faz com que a mulher fique encantada e se sinta a pessoa mais especial do mundo. Porém, como consequência de tanto amor, podem surgir expectativas, necessidade de reconhecimento, acusações e cobranças por parte do praticante, na tentativa de controlar e moldar a narrativa para que ele pareça o parceiro perfeito, levando a mulher a se sentir sobrecarregada, sufocada, em dívida com o abusador e presa ao relacionamento, seja pela dependência emocional ou pelo sentimento de culpa, por todo amor que acredita que recebe e não consegue retribuir a altura.
-            </span>
+            </span> */}
           </div>
         </div>
         <div className={styles.each_slide_effect}>
@@ -95,18 +95,18 @@ function Exposition() {
         <div className={styles.each_slide_effect}>
           <div>
             <img src={benching} />
-            <span className={styles.text_info}>
+            {/* <span className={styles.text_info}>
               Benching, o ato de ser colocada no banco de reserva, é uma prática que também está associada ao narcisismo e acontece através da alternância de períodos de distanciamento e rejeição e períodos de demonstrações de interesse, diálogos frequentes, envolvendo atenção e entusiasmo, fazendo com que a vítima fique na expectativa da realização do encontro e da relação, que nunca acontece, causando incerteza, insegurança, podendo desencadear consequências mais sérias, como problema de autoestima, sentimentos de inadequação, insuficiência e dependência emocional. Basicamente, consiste em manter a outra pessoa em uma situação de espera constante, suspensa e disponível, onde seu interesse é conquistar a vítima, mas não desenvolver uma relação, para usar a pessoa como segunda opção.<br></br><br></br>
               O termo vem da palavra “bench”, que significa “banco” em inglês e faz referência ao contexto esportivo, onde o jogador é colocado no banco de reserva, como acontece no futebol, por exemplo. De acordo com Battaglia, a experiência do benching no esporte, quando experienciada como uma forma de punição, pode ser prejudicial para a autoestima e as relações dos atletas com seus treinadores e colegas de equipe.
-            </span>
+            </span> */}
           </div>
         </div>
         <div className={styles.each_slide_effect}>
           <div>
             <img src={benching2} />
-            <span className={styles.hl_phrase}>
+            {/* <span className={styles.hl_phrase}>
               "...a expectativa da realização do encontro e da relação, que nunca acontece".
-            </span>
+            </span> */}
           </div>
         </div>
         <div className={styles.each_slide_effect}>
@@ -125,10 +125,10 @@ function Exposition() {
         <div className={styles.each_slide_effect}>
           <div>
             <img src={silent_treatment} />
-            <span className={styles.text_info}>
+            {/* <span className={styles.text_info}>
               Tratamento de silêncio, ou silêncio punitivo, é caracterizado pela recusa a ouvir, falar ou responder à parceira, ignorando-a, com o objetivo de punir, fragilizar ou manipular. Em alguns casos, o abusador ignora totalmente a existência da parceira, por horas, dias ou, até mesmo, semanas. Quando o casal não mora junto, o abusador some, sem dar explicação, ignorando as tentativas de contato por parte da parceira, ligações e mensagens nas redes sociais.<br></br><br></br>
               Esse comportamento pode afetar a autoestima da vítima, levá-la a sentir-se ansiosa, confusa, insegura ou, até mesmo atormentada, já que, muitas vezes, não consegue ter ideia do motivo do silêncio do parceiro e acaba imaginando situações, reais ou não, que podem ter causado o comportamento. A vítima também pode experimentar sentimentos negativos, como o de humilhação, medo ou culpa e comportamentos inadequados, como autopunição, crises de ansiedade ou surtos
-            </span>
+            </span> */}
           </div>
         </div>
         <div className={styles.each_slide_effect}>

@@ -1,41 +1,117 @@
-.home {
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  padding: 4em;
-  justify-content: space-around;
+@media (max-width: 767px) {
+  
+  .home {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    justify-content: space-around;
+    border: red solid 1px;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  
+  .info_content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    width: 90%;
+    height: 100%;
+  }
+  
+  .home h1 {
+    font-size: 2.5rem;
+    text-align: left;
+    text-align: center;
+  }
+  
+  .home p {
+    color: white;
+    font-size: 0.9rem;
+  
+  }
+  .home img {
+    max-width: 300px;
+  }
+  
+  a .btn {
+    text-align: center;
+  }
+  
+  .btn {
+    border: red solid 1px;
+    text-decoration: none;
+    border: none;
+    background-color: white;
+    color: #000;
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 50px;
+    padding: 1rem;
+    width: fit-content;
+    align-self: center;
+    margin-bottom: 2rem;
+  }
+  
+  .home .btn:hover {
+    background-color: var(--secondary-color);
+    color: #fff;
+  }
 }
 
-.info_content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 1.2em;
-  width: 50%;
-  height: 100%;
+@media (min-width: 768px) {
+  
+  .home {
+    width: 100vw;
+    height: 93vh;
+    display: flex;
+    align-items: center;
+    padding: 4rem;
+    justify-content: space-around;
+  }
+  
+  .info_content {
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.5rem;
+    width: 50%;
+    height: 100%;
+  }
+  
+  .home h1 {
+    font-size: 3.5rem;
+    text-align: left;
+  }
+  
+  .home p {
+    color: white;
+    font-size: 1rem;
+  
+  }
+  .home img {
+    max-width: 300px;
+  }
+  
+  .home .btn {
+    text-decoration: none;
+    border: none;
+    background-color: white;
+    color: #000;
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 50px;
+    padding: 1rem;
+    width: fit-content;
+  }
+  
+  .home .btn:hover {
+    background-color: var(--secondary-color);
+    color: #fff;
+  }
 }
 
-.home h1 {
-  font-size: 4.5em;
-  text-align: left;
-}
 
-.home img {
-  max-width: 300px;
-}
-
-.home .btn {
-  text-decoration: none;
-  border: none;
-  background-color: white;
-  color: #000;
-  font-weight: 700;
-  border-radius: 50px;
-  padding: 1em;
-  width: fit-content;
-}
-
-.home .btn:hover {
-  background-color: var(--secondary-color);
-  color: #fff;
-}
