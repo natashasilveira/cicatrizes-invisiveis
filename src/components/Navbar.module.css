@@ -1,7 +1,7 @@
 @media (max-width: 767px) {
-  .navbar {
-    width: 100vw;
-    height: 7vh;
+  .navbar, .hidden {
+    /* width: 100vw; */
+    height: 6vh;
     min-height: 35px;
     background-color: var(--secondary-color);
     padding: 0 1.2em;
@@ -9,12 +9,7 @@
     justify-content: space-between;
     align-items: center;
     color: var(--primary-color);
-  }
-  
-  .navbar p {
-    display: none;
-    font-weight: 700;
-    font-size: 0.9rem;
+    z-index: 10;
   }
   
   .nav_list {
@@ -25,7 +20,7 @@
     gap: 2em;
   }
   
-  .nav_list li a, .nav_list li p {
+  .nav_list li a, .nav_list li {
     text-decoration: none;
     color: var(--primary-color);
     font-weight: 600;
@@ -36,9 +31,10 @@
     color: white;
   }
   
-  p {
-    font-size: 1.3rem;
+  p.navbar_title {
+    display: none;
   }
+
 }
 
 @media (min-width: 768px) {
@@ -52,6 +48,8 @@
     justify-content: space-between;
     align-items: center;
     color: var(--primary-color);
+    position: fixed;
+    z-index: 10;
   }
   
   .navbar p {
@@ -75,8 +73,14 @@
   .nav_list li a:hover {
     color: white;
   }
+
   
   p {
     font-size: 1.3rem;
   }
+
+  .hidden {
+    display: none;
+  }
+
 }

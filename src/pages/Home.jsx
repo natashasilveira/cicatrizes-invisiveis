@@ -10,7 +10,6 @@ function Home() {
         <p>O projeto "Cicatrizes Invisíveis" é uma exposição artístico-informativa com intuito de expor e elucidar, através de textos e ilustrações, conceitos relacionados à práticas de violência psicológica contra a mulher em relações heterossexuais.</p>
         <Link className={styles.btn} to='/exposition'>Ver Exposição</Link>
       </div>
-
       <img src={a4} />
     </div>
   )

@@ -1,34 +1,23 @@
 @media (max-width: 767px){
-  
-  .conteiner {
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    /* justify-content: center; */
-    padding: 0 2%;
-    height: fit-content;
-    border: green solid 2px;
-    height: max-content;
+
+  .container_desktop {
+    display: none;
   }
   
-  .content {
+  .container_mobile {
+    padding: 0 0.5rem;
     display: flex;
-    /* flex-direction: column; */
-    /* align-content: center; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    border: purple solid 2px;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
   }
   
   .each_slide_effect {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    /* align-self: center; */
-    height: max-content;
-    width: 100%;
-    border: yellow solid 2px;
+    height: 100%;
   }
 
   .each_slide_effect > div {
@@ -37,19 +26,25 @@
     align-items: center;
     justify-content: space-evenly;
     background-size: cover;
-    /* height: 100%; */
     text-align: center;
-    margin-bottom: 2rem;
-    /* margin: 0 50px; */
-    border: red solid 2px;
+  }
+
+  .each_slide_effect .intro_slide {
+    flex-direction: column;
+    justify-content: center;
+    max-width: 80%;
+  }
+
+  .each_slide_effect .audio_slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
   }
   
   .each_slide_effect span {
-    /* padding: 20px; */
-    font-size: 0.9em;
+    font-size: 0.8em;
     text-align: center;
-    border: blue solid 1px;
-    width: 70%;
+    max-width: 80%;
   }
   
   .each_slide_effect h1, h2 {
@@ -57,7 +52,7 @@
   }
   
   .each_slide_effect h1 {
-    font-size: 2.5em;
+    font-size: 2em;
     color: var(--secondary-color);
   }
   
@@ -69,36 +64,42 @@
   
   .each_slide_effect .hl_phrase {
     color: var(--secondary-color);
-    font-size: 2.5em;
+    font-size: 1.3em;
     text-align: center;
+    max-width: 70%;
   }
-
-  /* .slide_title {
-    display: flex;
-  } */
   
   .subtitle {
     font-style: italic;
   }
   
   img {
-    margin-bottom: 2rem;
-    max-height: 92vh;
+    margin-bottom: 0.5rem;
+    max-height: 90vh;
+    max-width: 95vw;
   }
-  
-  .text_info, .hl_phrase{
-    width: 45%;
+
+  .indicator {
+    display: none;
   }
 }
 
+/*   DESKTOP   */
+
 @media (min-width: 768px){
-  .conteiner {
-    padding: 0 2%;
+
+  .container_mobile {
+    display: none;
+  }
+  .container_desktop {
+    padding: 2%;
+    height: 100vh;
   }
   
   .content {
     display: flex;
     align-content: center;
+
   }
   
   .each_slide_effect > div {
@@ -106,18 +107,31 @@
     align-items: center;
     justify-content: space-evenly;
     background-size: cover;
-    height: 92vh;
+    height: 87vh;
     text-align: center;
-    /* margin: 0 50px; */
-    /* border: red solid 1px; */
   }
-  
+
+  .each_slide_effect .intro_slide {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .each_slide_effect .audio_slide div {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
   .each_slide_effect span {
-    padding: 20px;
-    font-size: 1.4em;
+    font-size: 1em;
     text-align: center;
+    max-height: 100%;
+    max-width: 90%;
   }
-  
+
   .each_slide_effect h1, h2 {
     text-align: center;
   }
@@ -135,7 +149,8 @@
   
   .each_slide_effect .hl_phrase {
     color: var(--secondary-color);
-    font-size: 2.5em;
+    font-size: 1.5em;
+    max-width: 25%;
     text-align: center;
   }
   
@@ -144,11 +159,42 @@
   }
   
   img {
-    max-height: 92vh;
+    max-height: 100%;
+  }
+
+  .audio_slide .text_info {
+    width: 100%;
   }
   
   .text_info, .hl_phrase{
     width: 45%;
   }
+
+  ul .indicator {
+    cursor: pointer;
+    opacity: 0.2;
+    margin: 0px 3px;
+    background-color: var(--secondary-color);
+    padding: 0.4%;
+    border-radius: 50%;
+  }
+
+  ul .indicator:hover {
+    opacity: 1;
+  }
+
+  ul .indicator.active {
+    opacity: 1;
+  }
+  
 }
 
+/*   ALL   */
+
+audio {
+  height: 40px;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: var(--secondary-color);
+}

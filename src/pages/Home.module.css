@@ -7,7 +7,6 @@
     align-items: center;
     padding: 1rem;
     justify-content: space-around;
-    border: red solid 1px;
     text-align: center;
     padding-bottom: 2rem;
   }
@@ -32,6 +31,7 @@
     font-size: 0.9rem;
   
   }
+  
   .home img {
     max-width: 300px;
   }
@@ -41,7 +41,6 @@
   }
   
   .btn {
-    border: red solid 1px;
     text-decoration: none;
     border: none;
     background-color: white;
@@ -65,7 +64,7 @@
   
   .home {
     width: 100vw;
-    height: 93vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     padding: 4rem;
@@ -74,7 +73,6 @@
   
   .info_content {
     display: flex;
-    flex-direction: row;
     flex-direction: column;
     justify-content: center;
     gap: 2.5rem;

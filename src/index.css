@@ -16,3 +16,7 @@ html, body, #root {
   /* height: 100%; */
   color: white;
 }
+
+ul.indicators > div.active {
+  opacity: 1;
+}
