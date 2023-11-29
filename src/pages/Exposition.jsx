@@ -2,15 +2,18 @@ import 'react-slideshow-image/dist/styles.css'
 import { Slide, Fade } from 'react-slideshow-image'
 import styles from './Exposition.module.css'
 import a4 from '../assets/a4.jpg'
+import benching from '../assets/benching.png'
+import benching2 from '../assets/benching2.png'
+import benching3 from '../assets/benching3.png'
+import breadcrumbing from '../assets/breadcrumbing.png'
+import breadcrumbing2 from '../assets/breadcrumbing2.png'
+import breadcrumbing3 from '../assets/breadcrumbing3.png'
 import gaslighting from '../assets/gaslighting.png'
 import gaslighting2 from '../assets/gaslighting2.png'
 import gaslighting3 from '../assets/gaslighting3.png'
 import love_bombing from '../assets/love_bombing.png'
 import love_bombing2 from '../assets/love_bombing2.png'
 import love_bombing3 from '../assets/love_bombing3.png'
-import benching from '../assets/benching.png'
-import benching2 from '../assets/benching2.png'
-import benching3 from '../assets/benching3.png'
 import negging from '../assets/negging.png'
 import negging2 from '../assets/negging2.png'
 import negging3 from '../assets/negging3.png'
@@ -18,6 +21,7 @@ import silent_treatment from '../assets/silent_treatment.png'
 import silent_treatment2 from '../assets/silent_treatment2.png'
 import silent_treatment3 from '../assets/silent_treatment3.png'
 import audio_teste from '../assets/audio_teste.mp3'
+import audio_benching from '../assets/audio_benching.mp3'
 
 function Exposition() {
 
@@ -41,10 +45,10 @@ function Exposition() {
             <div className={styles.audio_slide}>
               <img src={benching} />
               <div>
-                <audio src={audio_teste} controls controlsList='noplaybackrate nodownload' />
+                <audio src={audio_benching} controls controlsList='noplaybackrate nodownload' />
                 <span className={styles.text_info}>
-                  Benching, o ato de ser colocada no "banco de reserva", é uma prática que também está associada ao narcisismo e acontece através da alternância de períodos de distanciamento e rejeição e períodos de demonstrações de interesse, diálogos frequentes, envolvendo atenção e entusiasmo, fazendo com que a vítima fique na expectativa da realização do encontro e da relação, que nunca acontece, causando incerteza, insegurança, podendo desencadear consequências mais sérias, como problema de autoestima, sentimentos de inadequação, insuficiência e dependência emocional. Basicamente, consiste em manter a outra pessoa em uma situação de espera constante, suspensa e disponível, onde seu interesse é conquistar a vítima, mas não desenvolver uma relação, para usar a pessoa como segunda opção.<br></br><br></br>
-                  O termo vem da palavra “bench”, que significa “banco” em inglês e faz referência ao contexto esportivo, onde o jogador é colocado no banco de reserva, como acontece no futebol, por exemplo. De acordo com Battaglia, a experiência do benching no esporte, quando experienciada como uma forma de punição, pode ser prejudicial para a autoestima e as relações dos atletas com seus treinadores e colegas de equipe.
+                  Banco de Reserva, ou Benching, é uma prática que está associada ao narcisismo e consiste em manter a outra pessoa em uma situação de espera constante, suspensa e disponível, onde seu interesse é conquistar a vítima, mas não desenvolver uma relação, para usar a pessoa como segunda opção. Na prática, acontece através da alternância de períodos de distanciamento e rejeição e períodos de demonstrações de interesse e diálogos frequentes, envolvendo atenção e entusiasmo. Esse comportamento faz com que a vítima fique na expectativa da realização do encontro e da relação, que nunca acontece, causando incerteza, insegurança e podendo desencadear consequências mais sérias, como problemas de autoestima, sentimentos de inadequação, insuficiência e dependência emocional. <br></br><br></br>
+                  O termo vem da palavra “bench”, que significa “banco” em inglês e faz referência ao contexto esportivo, onde o jogador é colocado no banco de reserva, como acontece no futebol, por exemplo. A experiência de ser colocado no banco de reservas, no esporte, quando experienciada como uma forma de punição, pode ser prejudicial para a autoestima e as relações dos atletas com seus treinadores e colegas de equipe.
                 </span>
               </div>
             </div>
@@ -75,9 +79,9 @@ function Exposition() {
               <div>
                 <audio src={audio_teste} controls controlsList='noplaybackrate nodownload' />
                 <span className={styles.text_info}>
-                  Negging, que não tem tradução direta no português, mas um sentido aproximado de elogio dissimulado, ou desqualificação sutil, é uma técnica inventiva que tem como objetivo minar a autoestima da vítima, para que ela se sinta insegura e dependente emocional de aprovação e elogios vindos do abusador.
+                  Elogio Dissimulado, é uma técnica inventiva que tem como objetivo minar a autoestima da vítima, para que ela se sinta insegura e dependente emocional de aprovação e elogios vindos do abusador. Na prática, esta violência se dá através de falas que desqualificam a vítima, como comentários negativos e depreciativos sobre sua aparência ou personalidade, comparação negativa com outras mulheres ou insultos. É muito comum o uso de elogios com sentidos dúbios ou um elogio seguido de uma crítica.
                   <br></br><br></br>
-                  Na prática, esta violência se dá através de falas que desqualificam a vítima, como comentários negativos e depreciativos sobre sua aparência ou personalidade, comparação negativa com outras mulheres ou insultos. É muito comum o uso de elogios com sentidos dúbios ou um elogio seguido de uma crítica. Essa prática estabelece na vítima um sentimento de insuficiência, onde ela passa a pensar que não é boa o suficiente e precisa se comportar de modo a buscar a aprovação do abusador.
+                  Essa prática estabelece na vítima um sentimento de insuficiência, onde ela passa a pensar que não é boa o suficiente e precisa se comportar de modo a buscar a aprovação do abusador. A expressão "Elogio Dissimulado" é uma tradução aproximada para o termo Negging, que vem do inglês e não tem uma tradução direta no português.
                 </span>
               </div>
             </div>
@@ -89,7 +93,7 @@ function Exposition() {
                 <audio src={audio_teste} controls controlsList='noplaybackrate nodownload' />
                 <span className={styles.text_info}>
                   Essa técnica de manipulação psicológica, é difundida e considerada, por muitos praticantes, uma técnica de sedução e conquista, com o foco em vulnerabilizar a mulher, reduzindo sua autoestima e aumentando a atratividade do abusador, para que o mesmo obtenha a aceitação de sua investida sexual.<br></br><br></br>
-                  Existem vários movimentos coletivos masculinos no mundo, nos quais, seus integrantes, conhecidos como PUAs, ou “Pick-up Artist” (Artista da Sedução), se dedicam ao estudo e aprimoramento de habilidades de como seduzir e dormir com mulheres, sendo o negging uma das práticas estimuladas e ensinadas por essas comunidades como tática de sedução. Erik Von Markovik, PUA que introduziu o termo negging, descreve a prática como “inofensiva, envolvente e divertida”. Além do estímulo de práticas abusivas, esse grupos, frequentemente, defendem outras ideias e práticas misóginas.
+                  Existem vários movimentos coletivos masculinos no mundo, nos quais, seus integrantes, conhecidos como PUAs, ou “Pick-up Artist” (Artista da Sedução), se dedicam ao estudo e aprimoramento de habilidades de como seduzir e dormir com mulheres, sendo o Elogio Dissimulado uma das práticas estimuladas e ensinadas por essas comunidades como tática de sedução. Erik Von Markovik, PUA que introduziu o termo negging, descreve a prática como “inofensiva, envolvente e divertida”. Além do estímulo de práticas abusivas, esses grupos, frequentemente, defendem outras ideias e práticas misóginas.
                 </span>
               </div>
             </div>
@@ -113,7 +117,7 @@ function Exposition() {
               <div>
                 <audio src={audio_teste} controls controlsList='noplaybackrate nodownload' />
                 <span className={styles.text_info}>
-                  Love bombing, ou bombardeio de amor, consiste em uma tática narcísica, caracterizada pelo excesso de atenção, comunicação, de demonstrações exageradas e excessivas de afeto, admiração e apego, como verbalizações como “Eu não sei viver sem você”, presentes exagerados ou muito caros e sem motivo especial, a fim de estabelecer poder e controle sobre a vítima. Está correlacionado com tendências narcisistas e estilos de apego inseguros e negativamente relacionado à autoestima, ou seja, pessoas que praticam tendem a comportamentos de grandiosidade, falta de empatia, baixa autoestima e falta de confiança nos outros.<br></br><br></br>
+                  Bombardeio de Amor, ou Love Bombing, é caracterizado pelo excesso de atenção, comunicação e de demonstrações exageradas e excessivas de afeto, admiração e apego, como, por exemplo, verbalizações como “eu não sei viver sem você”, presentes exagerados ou muito caros e sem motivo especial, a fim de estabelecer poder e controle sobre a vítima. Está correlacionado com tendências narcisistas e estilos de apego inseguros e, negativamente, relacionado à autoestima, ou seja, pessoas que praticam tendem a comportamentos de grandiosidade, falta de empatia, baixa autoestima e falta de confiança nos outros.<br></br><br></br>
                   Essa prática, inicialmente, faz com que a mulher fique encantada e se sinta a pessoa mais especial do mundo. Porém, como consequência de tanto amor, podem surgir expectativas, necessidade de reconhecimento, acusações e cobranças por parte do praticante, na tentativa de controlar e moldar a narrativa para que ele pareça o parceiro perfeito, levando a mulher a se sentir sobrecarregada, sufocada, em dívida com o abusador e presa ao relacionamento, seja pela dependência emocional ou pelo sentimento de culpa, por todo amor que acredita que recebe e não consegue retribuir à altura.
                 </span>
               </div>
@@ -129,6 +133,46 @@ function Exposition() {
               <img src={love_bombing3} />
               <span className={styles.hl_phrase}>
                 "...se sentir sobrecarregada, sufocada, em dívida com o abusador e presa ao relacionamento, seja pela dependência emocional ou pelo sentimento de culpa".
+              </span>
+            </div>
+          </div>
+          {/* 4 -- INÍCIO BREADCRUMBING */}
+          <div className={styles.each_slide_effect}>
+            <div className={styles.intro_slide}>
+              <h1>Migalhas de Pão</h1>
+              <h2 className={styles.subtitle}>Breadcrumbing</h2>
+            </div>
+          </div>
+          <div className={styles.each_slide_effect}>
+            <div className={styles.audio_slide}>
+              <img src={breadcrumbing} />
+              <div>
+                <audio src={audio_teste} controls controlsList='noplaybackrate nodownload' />
+                <span className={styles.text_info}>
+                  Breadcrumbing, cujo termo vem de bread crumb que significa “migalha de pão”, em inglês, e faz alusão à história de João e Maria, que são guiados por uma trilha de migalhas de pão para uma armadilha. No contexto da violência psicológica, o breadcrumbing é entendido como o ato de manter um relacionamento dando “migalhas de pão”, ou seja, oferecendo o mínimo, mantendo afastamento, com pouca comunicação, falta de compromisso e com comportamentos evasivos e evitativos em interações desconfortáveis ou negativas.
+                  <br></br><br></br>
+                  A vítima, fica submetida a uma relação desconfortável, sem conexão com o parceiro, se sentindo solitária, confusa, mas muitas vezes não consegue sair da relação por dependência emocional e por achar que o parceiro vai mudar e a relação melhorar. Pode ocasionar consequências como afetar a autoestima, diminuição da capacidade de agir com empatia, aumento de medo e insegurança, podendo afetar, ainda, relacionamentos futuros.
+                </span>
+              </div>
+            </div>
+          </div>
+          <div className={styles.each_slide_effect}>
+            <div className={styles.audio_slide}>
+              <img src={breadcrumbing2} />
+              <div>
+                <audio src={audio_teste} controls controlsList='noplaybackrate nodownload' />
+                <span className={styles.text_info}>
+                Essa prática está relacionada com a intenção do praticante de se sentir atraente, importante e desejado pela outra pessoa. Essa é a principal motivação da continuidade da relação, e não o vínculo em si, por isso a pessoa que pratica não dá espaço para que o relacionamento se desenvolva. <br></br><br></br>
+                É uma forma de manipulação sutil em relacionamentos que sempre existiu, porém, aumentou com o surgimento e aumento do uso de dispositivos eletrônicos e aplicativos de comunicação, já que esses meios de comunicação foram incorporados nos relacionamentos, inclusive sendo usados como formas de procurar parceiros, iniciar, manter e terminar relacionamentos. A tecnologia transformou profundamente as formas de se relacionar, proporcionando vantagens e a melhora na dinâmicas das relações, em muitos aspectos, mas também trouxe novos desafios, desvantagens e uma série de possibilidades de formas diferentes de praticar violências.
+                </span>
+              </div>
+            </div>
+          </div>
+          <div className={styles.each_slide_effect}>
+            <div>
+              <img src={breadcrumbing3} />
+              <span className={styles.hl_phrase}>
+                "...oferecendo o mínimo, mantendo afastamento, com pouca comunicação, falta de compromisso e com comportamentos evasivos e evitativos em interações desconfortáveis ou negativas".
               </span>
             </div>
           </div>
@@ -202,7 +246,7 @@ function Exposition() {
               <img src={silent_treatment3} />
             </div>
           </div>
-          
+
         </Fade>
       </div>
 
@@ -226,8 +270,8 @@ function Exposition() {
           <div className={styles.each_slide_effect}>
             <div>
               <span className={styles.text_info}>
-                Benching, o ato de ser colocada no "banco de reserva", é uma prática que também está associada ao narcisismo e acontece através da alternância de períodos de distanciamento e rejeição e períodos de demonstrações de interesse, diálogos frequentes, envolvendo atenção e entusiasmo, fazendo com que a vítima fique na expectativa da realização do encontro e da relação, que nunca acontece, causando incerteza, insegurança, podendo desencadear consequências mais sérias, como problema de autoestima, sentimentos de inadequação, insuficiência e dependência emocional. Basicamente, consiste em manter a outra pessoa em uma situação de espera constante, suspensa e disponível, onde seu interesse é conquistar a vítima, mas não desenvolver uma relação, para usar a pessoa como segunda opção.<br></br><br></br>
-                O termo vem da palavra “bench”, que significa “banco” em inglês e faz referência ao contexto esportivo, onde o jogador é colocado no banco de reserva, como acontece no futebol, por exemplo. De acordo com Battaglia, a experiência do benching no esporte, quando experienciada como uma forma de punição, pode ser prejudicial para a autoestima e as relações dos atletas com seus treinadores e colegas de equipe.
+                Banco de Reserva, ou Benching, é uma prática que está associada ao narcisismo e consiste em manter a outra pessoa em uma situação de espera constante, suspensa e disponível, onde seu interesse é conquistar a vítima, mas não desenvolver uma relação, para usar a pessoa como segunda opção. Na prática, acontece através da alternância de períodos de distanciamento e rejeição e períodos de demonstrações de interesse e diálogos frequentes, envolvendo atenção e entusiasmo. Esse comportamento faz com que a vítima fique na expectativa da realização do encontro e da relação, que nunca acontece, causando incerteza, insegurança e podendo desencadear consequências mais sérias, como problemas de autoestima, sentimentos de inadequação, insuficiência e dependência emocional. <br></br><br></br>
+                O termo vem da palavra “bench”, que significa “banco” em inglês e faz referência ao contexto esportivo, onde o jogador é colocado no banco de reserva, como acontece no futebol, por exemplo. A experiência de ser colocado no banco de reservas, no esporte, quando experienciada como uma forma de punição, pode ser prejudicial para a autoestima e as relações dos atletas com seus treinadores e colegas de equipe.
               </span>
             </div>
           </div>
@@ -264,9 +308,9 @@ function Exposition() {
           <div className={styles.each_slide_effect}>
             <div>
               <span className={styles.text_info}>
-                Negging, que não tem tradução direta no português, mas um sentido aproximado de elogio dissimulado, ou desqualificação sutil, é uma técnica inventiva que tem como objetivo minar a autoestima da vítima, para que ela se sinta insegura e dependente emocional de aprovação e elogios vindos do abusador.
+                Elogio Dissimulado, é uma técnica inventiva que tem como objetivo minar a autoestima da vítima, para que ela se sinta insegura e dependente emocional de aprovação e elogios vindos do abusador. Na prática, esta violência se dá através de falas que desqualificam a vítima, como comentários negativos e depreciativos sobre sua aparência ou personalidade, comparação negativa com outras mulheres ou insultos. É muito comum o uso de elogios com sentidos dúbios ou um elogio seguido de uma crítica.
                 <br></br><br></br>
-                Na prática, esta violência se dá através de falas que desqualificam a vítima, como comentários negativos e depreciativos sobre sua aparência ou personalidade, comparação negativa com outras mulheres ou insultos. É muito comum o uso de elogios com sentidos dúbios ou um elogio seguido de uma crítica. Essa prática estabelece na vítima um sentimento de insuficiência, onde ela passa a pensar que não é boa o suficiente e precisa se comportar de modo a buscar a aprovação do abusador.
+                Essa prática estabelece na vítima um sentimento de insuficiência, onde ela passa a pensar que não é boa o suficiente e precisa se comportar de modo a buscar a aprovação do abusador. A expressão "Elogio Dissimulado" é uma tradução aproximada para o termo Negging, que vem do inglês e não tem uma tradução direta no português.
               </span>
             </div>
           </div>
@@ -277,10 +321,10 @@ function Exposition() {
           </div>
           <div className={styles.each_slide_effect}>
             <div>
-                <span className={styles.text_info}>
-                  Essa técnica de manipulação psicológica, é difundida e considerada, por muitos praticantes, uma técnica de sedução e conquista, com o foco em vulnerabilizar a mulher, reduzindo sua autoestima e aumentando a atratividade do abusador, para que o mesmo obtenha a aceitação de sua investida sexual.<br></br><br></br>
-                  Existem vários movimentos coletivos masculinos no mundo, nos quais, seus integrantes, conhecidos como PUAs, ou “Pick-up Artist” (Artista da Sedução), se dedicam ao estudo e aprimoramento de habilidades de como seduzir e dormir com mulheres, sendo o negging uma das práticas estimuladas e ensinadas por essas comunidades como tática de sedução. Erik Von Markovik, PUA que introduziu o termo negging, descreve a prática como “inofensiva, envolvente e divertida”. Além do estímulo de práticas abusivas, esse grupos, frequentemente, defendem outras ideias e práticas misóginas.
-                </span>
+              <span className={styles.text_info}>
+                Essa técnica de manipulação psicológica, é difundida e considerada, por muitos praticantes, uma técnica de sedução e conquista, com o foco em vulnerabilizar a mulher, reduzindo sua autoestima e aumentando a atratividade do abusador, para que o mesmo obtenha a aceitação de sua investida sexual.<br></br><br></br>
+                Existem vários movimentos coletivos masculinos no mundo, nos quais, seus integrantes, conhecidos como PUAs, ou “Pick-up Artist” (Artista da Sedução), se dedicam ao estudo e aprimoramento de habilidades de como seduzir e dormir com mulheres, sendo o Elogio Dissimulado uma das práticas estimuladas e ensinadas por essas comunidades como tática de sedução. Erik Von Markovik, PUA que introduziu o termo negging, descreve a prática como “inofensiva, envolvente e divertida”. Além do estímulo de práticas abusivas, esses grupos, frequentemente, defendem outras ideias e práticas misóginas.
+              </span>
             </div>
           </div>
           <div className={styles.each_slide_effect}>
@@ -305,8 +349,8 @@ function Exposition() {
           <div className={styles.each_slide_effect}>
             <div>
               <span className={styles.text_info}>
-                Love bombing, ou bombardeio de amor, consiste em uma tática narcísica, caracterizada pelo excesso de atenção, comunicação, de demonstrações exageradas e excessivas de afeto, admiração e apego, como verbalizações como “Eu não sei viver sem você”, presentes exagerados ou muito caros e sem motivo especial, a fim de estabelecer poder e controle sobre a vítima. Está correlacionado com tendências narcisistas e estilos de apego inseguros e negativamente relacionado à autoestima, ou seja, pessoas que praticam tendem a comportamentos de grandiosidade, falta de empatia, baixa autoestima e falta de confiança nos outros.<br></br><br></br>
-                Essa prática, inicialmente, faz com que a mulher fique encantada e se sinta a pessoa mais especial do mundo. Porém, como consequência de tanto amor, podem surgir expectativas, necessidade de reconhecimento, acusações e cobranças por parte do praticante, na tentativa de controlar e moldar a narrativa para que ele pareça o parceiro perfeito, levando a mulher a se sentir sobrecarregada, sufocada, em dívida com o abusador e presa ao relacionamento, seja pela dependência emocional ou pelo sentimento de culpa, por todo amor que acredita que recebe e não consegue retribuir a altura.
+                Bombardeio de Amor, ou Love Bombing, é caracterizado pelo excesso de atenção, comunicação e de demonstrações exageradas e excessivas de afeto, admiração e apego, como, por exemplo, verbalizações como “eu não sei viver sem você”, presentes exagerados ou muito caros e sem motivo especial, a fim de estabelecer poder e controle sobre a vítima. Está correlacionado com tendências narcisistas e estilos de apego inseguros e, negativamente, relacionado à autoestima, ou seja, pessoas que praticam tendem a comportamentos de grandiosidade, falta de empatia, baixa autoestima e falta de confiança nos outros.<br></br><br></br>
+                Essa prática, inicialmente, faz com que a mulher fique encantada e se sinta a pessoa mais especial do mundo. Porém, como consequência de tanto amor, podem surgir expectativas, necessidade de reconhecimento, acusações e cobranças por parte do praticante, na tentativa de controlar e moldar a narrativa para que ele pareça o parceiro perfeito, levando a mulher a se sentir sobrecarregada, sufocada, em dívida com o abusador e presa ao relacionamento, seja pela dependência emocional ou pelo sentimento de culpa, por todo amor que acredita que recebe e não consegue retribuir à altura.
               </span>
             </div>
           </div>
@@ -409,7 +453,7 @@ function Exposition() {
               </span>
             </div>
           </div>
-          
+
         </Fade>
       </div >
     </div >
