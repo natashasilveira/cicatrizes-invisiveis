@@ -39,6 +39,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    gap: 1em
   }
   
   .each_slide_effect span {
@@ -69,9 +70,7 @@
     max-width: 70%;
   }
   
-  .subtitle {
-    font-style: italic;
-  }
+  
   
   img {
     margin-bottom: 0.5rem;
@@ -81,6 +80,10 @@
 
   .indicator {
     display: none;
+  }
+
+  audio {
+    height: 2em;
   }
 }
 
@@ -154,9 +157,6 @@
     text-align: center;
   }
   
-  .subtitle {
-    font-style: italic;
-  }
   
   img {
     max-height: 100%;
@@ -186,13 +186,17 @@
   ul .indicator.active {
     opacity: 1;
   }
+
+  audio {
+    height: 3em;
+  }
   
 }
 
 /*   ALL   */
 
-audio {
-  height: 40px;
+.subtitle {
+  font-style: italic;
 }
 
 audio::-webkit-media-controls-panel {
