@@ -1,5 +1,6 @@
 import 'react-slideshow-image/dist/styles.css'
 import { Slide, Fade } from 'react-slideshow-image'
+import { Link } from 'react-router-dom'
 import styles from './Exposition.module.css'
 import a4 from '../assets/a4.jpg'
 import benching from '../assets/benching.png'
@@ -267,22 +268,30 @@ function Exposition() {
               <div>
                 <audio src={audio_teste} controls controlsList='noplaybackrate nodownload' />
                 <span className={styles.text_info}>
-                  Bombardeio de Amor, ou Love Bombing, é caracterizado pelo excesso de atenção, comunicação e de demonstrações exageradas e excessivas de afeto, admiração e apego, como, por exemplo, verbalizações como “eu não sei viver sem você”, presentes exagerados ou muito caros e sem motivo especial, a fim de estabelecer poder e controle sobre a vítima. Está correlacionado com tendências narcisistas e estilos de apego inseguros e, negativamente, relacionado à autoestima, ou seja, pessoas que praticam tendem a comportamentos de grandiosidade, falta de empatia, baixa autoestima e falta de confiança nos outros.<br></br><br></br>
-                  Essa prática, inicialmente, faz com que a mulher fique encantada e se sinta a pessoa mais especial do mundo. Porém, como consequência de tanto amor, podem surgir expectativas, necessidade de reconhecimento, acusações e cobranças por parte do praticante, na tentativa de controlar e moldar a narrativa para que ele pareça o parceiro perfeito, levando a mulher a se sentir sobrecarregada, sufocada, em dívida com o abusador e presa ao relacionamento, seja pela dependência emocional ou pelo sentimento de culpa, por todo amor que acredita que recebe e não consegue retribuir à altura.
+                  Sumiço Repentino, tradução aproximada para Ghosting, é a prática de desaparecer subitamente, quando existe uma relação estabelecida, sem dar nenhuma explicação ou aviso, interrompendo todo o contato e comunicação. O abusador não corta relações explicitamente e passa a ignorar tentativas de contato, como ligações e mensagens, podendo também deixar de seguir e bloquear a vítima, deixando-a sem explicação e sem entender o que aconteceu e com uma sobrecarga mental imaginando o que pode ter motivado o afastamento.
+                  <br></br><br></br>
+                  Afeta profundamente a autoestima e o bem-estar psicológico da vítima. A vítima experimenta sensação de impotência e fica silenciada, sem a oportunidade de dialogar e receber informações que a ajudariam no entendimento da situação e processamento emocional em relação ao rompimento, além do impedimento de expressar suas próprias emoções, o que pode ocasionar sofrimento emocional e psicológico, solidão, desesperança, sentimentos de rejeição, tristeza profunda, raiva, frustração, culpa, mágoa, confusão, falta de satisfação com a vida e depressão.
+                </span>
+              </div>
+            </div>
+          </div>
+          <div className={styles.each_slide_effect}>
+            <div className={styles.audio_slide}>
+              <img src={ghosting2} />
+              <div>
+                <audio src={audio_teste} controls controlsList='noplaybackrate nodownload' />
+                <span className={styles.text_info}>
+                  O desenvolvimento da tecnologia e os meios eletrônicos de comunicação, como aplicativos de namoro, redes sociais, e-mails e aplicativos de comunicação direta, tornaram o ghosting uma forma fácil e conveniente de encerrar um relacionamento. Além disso, é mais frequente em relacionamentos de curto prazo do que em relacionamentos longos e estáveis.<br></br><br></br>
+                  O termo usado para denominar essa prática vem da palavra “ghost”, que significa “fantasma” em inglês, porém no contexto deste trabalho, sugerimos como denominação, em português, a tradução aproximada “Sumiço Repentino”.
                 </span>
               </div>
             </div>
           </div>
           <div className={styles.each_slide_effect}>
             <div>
-              <img src={ghosting2} />
-            </div>
-          </div>
-          <div className={styles.each_slide_effect}>
-            <div>
               <img src={ghosting3} />
               <span className={styles.hl_phrase}>
-                "...se sentir sobrecarregada, sufocada, em dívida com o abusador e presa ao relacionamento, seja pela dependência emocional ou pelo sentimento de culpa".
+                "solidão, desesperança, sentimentos de rejeição, tristeza profunda, raiva, frustração, culpa, mágoa, confusão, falta de satisfação com a vida e depressão".
               </span>
             </div>
           </div>
@@ -300,23 +309,43 @@ function Exposition() {
               <div>
                 <audio src={audio_teste} controls controlsList='noplaybackrate nodownload' />
                 <span className={styles.text_info}>
-                  Bombardeio de Amor, ou Love Bombing, é caracterizado pelo excesso de atenção, comunicação e de demonstrações exageradas e excessivas de afeto, admiração e apego, como, por exemplo, verbalizações como “eu não sei viver sem você”, presentes exagerados ou muito caros e sem motivo especial, a fim de estabelecer poder e controle sobre a vítima. Está correlacionado com tendências narcisistas e estilos de apego inseguros e, negativamente, relacionado à autoestima, ou seja, pessoas que praticam tendem a comportamentos de grandiosidade, falta de empatia, baixa autoestima e falta de confiança nos outros.<br></br><br></br>
-                  Essa prática, inicialmente, faz com que a mulher fique encantada e se sinta a pessoa mais especial do mundo. Porém, como consequência de tanto amor, podem surgir expectativas, necessidade de reconhecimento, acusações e cobranças por parte do praticante, na tentativa de controlar e moldar a narrativa para que ele pareça o parceiro perfeito, levando a mulher a se sentir sobrecarregada, sufocada, em dívida com o abusador e presa ao relacionamento, seja pela dependência emocional ou pelo sentimento de culpa, por todo amor que acredita que recebe e não consegue retribuir à altura.
+                  Reaproximação Manipulativa, tradução aproximada para o termo, em inglês, Hoovering, que significa “aspirando”, é a prática de não deixar que a mulher se desvincule ou se afaste, buscando formas de manter o contato e o vínculo, mesmo que haja uma declaração explícita ou um combinado, entre as partes, de encerrar a relação, o abusador continua buscando chamar a atenção e se manter presente, “sugando-a” de volta para recuperar o controle emocional.
+                  <br></br><br></br>
+                  A prática pode ser perpetrada através de comportamentos variados, como tentativas de contato por meios eletrônicos, como mensagens, e-mails e ligações, por meio de investidas de encontros, podendo aparecer pessoalmente na casa ou trabalho da ex, por exemplo, ou, ainda, através de formas mais disfarçadas, como encontros acidentais forjados, onde o praticante passa a frequentar lugares que a ex frequenta ou se aproximar de pessoas próximas da vítima.
+                </span>
+              </div>
+            </div>
+          </div>
+          <div className={styles.each_slide_effect}>
+            <div className={styles.audio_slide}>
+              <img src={hoovering2} />
+              <div>
+                <audio src={audio_teste} controls controlsList='noplaybackrate nodownload' />
+                <span className={styles.text_info}>
+                  Em alguns casos, os abusadores podem usar de terror psicológico para forçar a vítima a restabelecer a relação, recorrendo a comportamentos cínicos e perturbadores, como ignorar os limites estabelecidos e agir como se nada tivesse acontecido, ou ainda o uso de chantagens e culpabilização da vítima. Recursos como agressões físicas, intimidação e ameaças também podem ser usados, podendo, o perpetrador, agredir ou ameaçar machucar a ex, a si mesmo ou terceiros.
+                  <br></br><br></br>
+                  É importante entender que essa prática não é uma manifestação de afeto, nem indica que a ex está sendo valorizada. É um jogo de manipulação e poder, com o objetivo de manter uma série de conveniências e que pode causar sérios danos e traumas na vítima. Um estudo de 2017 aponta que pessoas com traços de personalidade como psicopatia e narcisismo, tendem a manter relação com ex, não por motivos como confiança, amor e admiração, mas por motivações egoístas e convenientes, como sexo, acesso a recursos e praticidade. Além disso, homens classificam o pragmatismo e o acesso sexual após o relacionamento como mais importantes do que as mulheres.
                 </span>
               </div>
             </div>
           </div>
           <div className={styles.each_slide_effect}>
             <div>
-              <img src={hoovering2} />
+              <img src={hoovering3} />
+              <span className={styles.hl_phrase}>
+                "Essa prática não é uma manifestação de afeto, nem indica que a ex está sendo valorizada. É um jogo de manipulação e poder, com o objetivo de manter uma série de conveniências".
+              </span>
             </div>
           </div>
           <div className={styles.each_slide_effect}>
-            <div>
-              <img src={hoovering3} />
-              <span className={styles.hl_phrase}>
-                "...se sentir sobrecarregada, sufocada, em dívida com o abusador e presa ao relacionamento, seja pela dependência emocional ou pelo sentimento de culpa".
+            <div className={styles.last_slide}>
+              <span className={styles.lastslide_text}>
+                Obrigada por visitar esta exposição!
+                <br></br>
+                A violência psicológica é um assunto sério, e encorajamos que, se necessário, busque apoio emocional adequado.
               </span>
+              <Link className={styles.btn} to='/about'>Sobre o Projeto</Link>
+
             </div>
           </div>
 
@@ -573,6 +602,113 @@ function Exposition() {
               <span className={styles.hl_phrase}>
                 "Esse comportamento pode afetar a autoestima da vítima, levá-la a sentir-se ansiosa, confusa, insegura ou, até mesmo atormentada".
               </span>
+            </div>
+          </div>
+          {/* 7 -- INÍCIO GHOSTING */}
+          <div className={styles.each_slide_effect}>
+            <div className={styles.intro_slide}>
+              <h1>Sumiço Repentino</h1>
+              <h2 className={styles.subtitle}>Ghosting</h2>
+            </div>
+          </div>
+          <div className={styles.each_slide_effect}>
+            <div className={styles.audio_slide}>
+              <img src={ghosting} />
+              <audio src={audio_teste} controls controlsList='noplaybackrate nodownload' />
+            </div>
+          </div>
+          <div className={styles.each_slide_effect}>
+            <div>
+              <span className={styles.text_info}>
+                Sumiço Repentino, tradução aproximada para Ghosting, é a prática de desaparecer subitamente, quando existe uma relação estabelecida, sem dar nenhuma explicação ou aviso, interrompendo todo o contato e comunicação. O abusador não corta relações explicitamente e passa a ignorar tentativas de contato, como ligações e mensagens, podendo também deixar de seguir e bloquear a vítima, deixando-a sem explicação e sem entender o que aconteceu e com uma sobrecarga mental imaginando o que pode ter motivado o afastamento.
+                <br></br><br></br>
+                Afeta profundamente a autoestima e o bem-estar psicológico da vítima. A vítima experimenta sensação de impotência e fica silenciada, sem a oportunidade de dialogar e receber informações que a ajudariam no entendimento da situação e processamento emocional em relação ao rompimento, além do impedimento de expressar suas próprias emoções, o que pode ocasionar sofrimento emocional e psicológico, solidão, desesperança, sentimentos de rejeição, tristeza profunda, raiva, frustração, culpa, mágoa, confusão, falta de satisfação com a vida e depressão.
+              </span>
+            </div>
+          </div>
+          <div className={styles.each_slide_effect}>
+            <div>
+              <img src={ghosting2} />
+            </div>
+          </div>
+          <div className={styles.each_slide_effect}>
+            <div className={styles.audio_slide}>
+              <audio src={audio_teste} controls controlsList='noplaybackrate nodownload' />
+              <span className={styles.text_info}>
+                O desenvolvimento da tecnologia e os meios eletrônicos de comunicação, como aplicativos de namoro, redes sociais, e-mails e aplicativos de comunicação direta, tornaram o ghosting uma forma fácil e conveniente de encerrar um relacionamento. Além disso, é mais frequente em relacionamentos de curto prazo do que em relacionamentos longos e estáveis.<br></br><br></br>
+                O termo usado para denominar essa prática vem da palavra “ghost”, que significa “fantasma” em inglês, porém no contexto deste trabalho, sugerimos como denominação, em português, a tradução aproximada “Sumiço Repentino”.
+              </span>
+            </div>
+          </div>
+          <div className={styles.each_slide_effect}>
+            <div>
+              <img src={ghosting3} />
+            </div>
+          </div>
+          <div className={styles.each_slide_effect}>
+            <div>
+              <span className={styles.hl_phrase}>
+                "solidão, desesperança, sentimentos de rejeição, tristeza profunda, raiva, frustração, culpa, mágoa, confusão, falta de satisfação com a vida e depressão".
+              </span>
+            </div>
+          </div>
+          {/* 8 -- INÍCIO HOOVERING */}
+          <div className={styles.each_slide_effect}>
+            <div className={styles.intro_slide}>
+              <h1>Reaproximação Manipulativa</h1>
+              <h2 className={styles.subtitle}>Hoovering</h2>
+            </div>
+          </div>
+          <div className={styles.each_slide_effect}>
+            <div className={styles.audio_slide}>
+              <img src={hoovering} />
+              <audio src={audio_teste} controls controlsList='noplaybackrate nodownload' />
+            </div>
+          </div>
+          <div className={styles.each_slide_effect}>
+            <div>
+              <span className={styles.text_info}>
+                Reaproximação Manipulativa, tradução aproximada para o termo, em inglês, Hoovering, que significa “aspirando”, é a prática de não deixar que a mulher se desvincule ou se afaste, buscando formas de manter o contato e o vínculo, mesmo que haja uma declaração explícita ou um combinado, entre as partes, de encerrar a relação, o abusador continua buscando chamar a atenção e se manter presente, “sugando-a” de volta para recuperar o controle emocional.
+                <br></br><br></br>
+                A prática pode ser perpetrada através de comportamentos variados, como tentativas de contato por meios eletrônicos, como mensagens, e-mails e ligações, por meio de investidas de encontros, podendo aparecer pessoalmente na casa ou trabalho da ex, por exemplo, ou, ainda, através de formas mais disfarçadas, como encontros acidentais forjados, onde o praticante passa a frequentar lugares que a ex frequenta ou se aproximar de pessoas próximas da vítima.
+              </span>
+            </div>
+          </div>
+          <div className={styles.each_slide_effect}>
+            <div>
+              <img src={hoovering2} />
+            </div>
+          </div>
+          <div className={styles.each_slide_effect}>
+            <div className={styles.audio_slide}>
+              <audio src={audio_teste} controls controlsList='noplaybackrate nodownload' />
+              <span className={styles.text_info}>
+                Em alguns casos, os abusadores podem usar de terror psicológico para forçar a vítima a restabelecer a relação, recorrendo a comportamentos cínicos e perturbadores, como ignorar os limites estabelecidos e agir como se nada tivesse acontecido, ou ainda o uso de chantagens e culpabilização da vítima. Recursos como agressões físicas, intimidação e ameaças também podem ser usados, podendo, o perpetrador, agredir ou ameaçar machucar a ex, a si mesmo ou terceiros.
+                <br></br><br></br>
+                É importante entender que essa prática não é uma manifestação de afeto, nem indica que a ex está sendo valorizada. É um jogo de manipulação e poder, com o objetivo de manter uma série de conveniências e que pode causar sérios danos e traumas na vítima. Um estudo de 2017 aponta que pessoas com traços de personalidade como psicopatia e narcisismo, tendem a manter relação com ex, não por motivos como confiança, amor e admiração, mas por motivações egoístas e convenientes, como sexo, acesso a recursos e praticidade. Além disso, homens classificam o pragmatismo e o acesso sexual após o relacionamento como mais importantes do que as mulheres.
+              </span>
+            </div>
+          </div>
+          <div className={styles.each_slide_effect}>
+            <div>
+              <img src={hoovering3} />
+            </div>
+          </div>
+          <div className={styles.each_slide_effect}>
+            <div>
+              <span className={styles.hl_phrase}>
+                "Essa prática não é uma manifestação de afeto, nem indica que a ex está sendo valorizada. É um jogo de manipulação e poder, com o objetivo de manter uma série de conveniências".
+              </span>
+            </div>
+          </div>
+          <div className={styles.each_slide_effect}>
+            <div className={styles.last_slide}>
+              <span className={styles.lastslide_text}>
+                Obrigada por visitar esta exposição!
+                <br></br><br></br>
+                A violência psicológica é um assunto sério, e encorajamos que, se necessário, busque apoio emocional adequado.
+              </span>
+              <Link className={styles.btn} to='/about'>Sobre o Projeto</Link>
             </div>
           </div>
 

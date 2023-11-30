@@ -5,6 +5,7 @@
     flex-direction: column;
     align-items: center;
     padding: 1rem;
+    gap: 1.5em;
     justify-content: space-around;
     text-align: center;
     padding-bottom: 2rem;
@@ -14,10 +15,9 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    gap: 2rem;
+    gap: 1.5rem;
     width: 90%;
     height: 100%;
-    margin-bottom: 2rem;
   }
   
   .about h1 {
@@ -33,8 +33,20 @@
   }
   
   .about img {
-    max-width: 300px;
+    /* max-width: 200px;
+    margin: 0;
+    align-self: center; */
+    display: none;
   }
+
+  b {
+    color: var(--secondary-color);
+  }
+
+  .btn {
+    align-self: center;
+  }
+  
 }
 
 @media (min-width: 768px) {
@@ -53,8 +65,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 2.5rem;
-    width: 50%;
+    gap: 1.5em;
+    width: 60%;
     height: 100%;
 
   }
@@ -73,4 +85,30 @@
   .about img {
     max-width: 300px;
   }
+
+  b {
+    color: var(--secondary-color);
+  }
+}
+
+a .btn {
+  text-align: center;
+}
+
+.btn {
+  text-decoration: none;
+  border: none;
+  background-color: white;
+  color: #000;
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 50px;
+  padding: 1rem;
+  width: fit-content;
+  margin-bottom: 2rem;
+}
+
+.btn:hover {
+  background-color: var(--secondary-color);
+  color: #fff;
 }

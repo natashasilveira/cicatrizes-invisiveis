@@ -1,9 +1,9 @@
-@media (max-width: 767px){
+@media (max-width: 767px) {
 
   .container_desktop {
     display: none;
   }
-  
+
   .container_mobile {
     padding: 0 0.5rem;
     display: flex;
@@ -11,7 +11,7 @@
     justify-content: center;
     height: 100vh;
   }
-  
+
   .each_slide_effect {
     display: flex;
     flex-direction: column;
@@ -20,7 +20,7 @@
     height: 100%;
   }
 
-  .each_slide_effect > div {
+  .each_slide_effect>div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,10 +29,16 @@
     text-align: center;
   }
 
-  .each_slide_effect .intro_slide {
+  .each_slide_effect .intro_slide,
+  .each_slide_effect .last_slide {
     flex-direction: column;
     justify-content: center;
     max-width: 80%;
+  }
+
+  .each_slide_effect .last_slide {
+    gap: 2em;
+
   }
 
   .each_slide_effect .audio_slide {
@@ -41,37 +47,39 @@
     justify-content: space-evenly;
     gap: 1em
   }
-  
+
   .each_slide_effect span {
     font-size: 0.8em;
     text-align: center;
     max-width: 80%;
   }
-  
-  .each_slide_effect h1, h2 {
+
+  .each_slide_effect h1,
+  h2 {
     text-align: center;
   }
-  
+
   .each_slide_effect h1 {
     font-size: 2em;
     color: var(--secondary-color);
   }
-  
-  .each_slide_effect h2{
+
+  .each_slide_effect h2 {
     margin-top: 1em;
     font-size: 1.7em;
     text-align: center;
   }
-  
-  .each_slide_effect .hl_phrase {
+
+  .each_slide_effect .hl_phrase,
+  .each_slide_effect .lastslide_text {
     color: var(--secondary-color);
     font-size: 1.3em;
     text-align: center;
     max-width: 70%;
   }
-  
-  
-  
+
+
+
   img {
     margin-bottom: 0.5rem;
     max-height: 90vh;
@@ -89,23 +97,24 @@
 
 /*   DESKTOP   */
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
 
   .container_mobile {
     display: none;
   }
+
   .container_desktop {
     padding: 2%;
     height: 100vh;
   }
-  
+
   .content {
     display: flex;
     align-content: center;
 
   }
-  
-  .each_slide_effect > div {
+
+  .each_slide_effect>div {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -114,9 +123,13 @@
     text-align: center;
   }
 
-  .each_slide_effect .intro_slide {
+  .each_slide_effect .intro_slide, .each_slide_effect .last_slide {
     flex-direction: column;
     justify-content: center;
+  }
+
+  .each_slide_effect .last_slide {
+    gap: 2em;
   }
 
   .each_slide_effect .audio_slide div {
@@ -135,29 +148,30 @@
     max-width: 90%;
   }
 
-  .each_slide_effect h1, h2 {
+  .each_slide_effect h1,
+  h2 {
     text-align: center;
   }
-  
+
   .each_slide_effect h1 {
     font-size: 4.5em;
     color: var(--secondary-color);
   }
-  
-  .each_slide_effect h2{
+
+  .each_slide_effect h2 {
     margin-top: 1em;
     font-size: 4em;
     text-align: center;
   }
-  
+
   .each_slide_effect .hl_phrase {
     color: var(--secondary-color);
     font-size: 1.5em;
     max-width: 25%;
     text-align: center;
   }
-  
-  
+
+
   img {
     max-height: 100%;
   }
@@ -165,9 +179,15 @@
   .audio_slide .text_info {
     width: 100%;
   }
-  
-  .text_info, .hl_phrase{
+
+  /* .text_info{
     width: 45%;
+  } */
+
+  .each_slide_effect .lastslide_text {
+    width: 55%;
+    color: var(--secondary-color);
+    font-size: 1.5em;
   }
 
   ul .indicator {
@@ -190,7 +210,7 @@
   audio {
     height: 3em;
   }
-  
+
 }
 
 /*   ALL   */
@@ -201,4 +221,26 @@
 
 audio::-webkit-media-controls-panel {
   background-color: var(--secondary-color);
+}
+
+a .btn {
+  text-align: center;
+}
+
+.btn {
+  text-decoration: none;
+  border: none;
+  background-color: white;
+  color: #000;
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 50px;
+  padding: 1rem;
+  width: fit-content;
+  margin-bottom: 2rem;
+}
+
+.btn:hover {
+  background-color: var(--secondary-color);
+  color: #fff;
 }
