@@ -29,6 +29,8 @@ import silent_treatment2 from '../assets/silent_treatment2.png'
 import silent_treatment3 from '../assets/silent_treatment3.png'
 import audio_teste from '../assets/audio_teste.mp3'
 import audio_benching from '../assets/audio_benching.mp3'
+import audio_gaslighting1 from '../assets/audio_gaslighting1.mp3'
+import audio_gaslighting2 from '../assets/audio_gaslighting2.mp3'
 
 function Exposition() {
 
@@ -193,9 +195,9 @@ function Exposition() {
             <div className={styles.audio_slide}>
               <img src={gaslighting} />
               <div>
-                <audio src={audio_teste} controls controlsList='noplaybackrate nodownload' />
+                <audio src={audio_gaslighting1} controls controlsList='noplaybackrate nodownload' />
                 <span className={styles.text_info}>
-                  Distorção da Realidade, ou Gaslighting, consiste em manipular e confundir a vítima, fazendo com que ela passe a duvidar da própria sanidade e memória, perdendo o senso de percepção, identidade e autoestima. Dessa forma, o abusador pode exercer controle no comportamento e nas crenças da vítima. O parceiro abusivo age através de declarações e acusações baseadas em mentiras ou distorção da verdade, negação de fatos, podendo, por exemplo, questionar a memória da vítima, fingir não entender o que ela fala, sugerir ou declarar, explicitamente, que a vítima é ou está ficando “louca”.<br></br><br></br>
+                  Distorção da Realidade, ou Gaslighting, consiste em manipular e confundir a vítima, fazendo com que ela passe a duvidar da própria sanidade e memória, perdendo o senso de percepção, identidade e autoestima. Dessa forma, o abusador pode exercer controle no comportamento e nas crenças da vítima. O parceiro abusivo age através de declarações e acusações baseadas em mentiras ou distorção da verdade e negação de fatos, podendo, por exemplo, questionar a memória da vítima, fingir não entender o que ela fala, sugerir ou declarar, explicitamente, que a vítima é ou está ficando “louca”.<br></br><br></br>
                   O termo gaslighting tem origem no filme “Gas Light” de 1944, onde um homem tenta manipular sua esposa e fazê-la duvidar de sua própria sanidade, criando várias situações propositalmente, como forjar um furto para culpar a esposa e alterações na iluminação da casa, para deixá-la confusa. A tradução em português do nome do filme, é “Iluminação a gás”, que faz referência ao tipo de iluminação da casa do casal que possibilitaria a manipulação da intensidade da luz, o que era usado pelo marido como parte das situações que ele criava para deixar a esposa confusa e desestabilizá-la.
                 </span>
 
@@ -206,9 +208,9 @@ function Exposition() {
             <div className={styles.audio_slide}>
               <img src={gaslighting2} />
               <div>
-                <audio src={audio_teste} controls controlsList='noplaybackrate nodownload' />
+                <audio src={audio_gaslighting2} controls controlsList='noplaybackrate nodownload' />
                 <span className={styles.text_info}>
-                  De acordo com uma pesquisa publicada na American Sociological Review, a manifestação dessa prática de violência psicológica, demonstra uma estreita associação com padrões de desigualdade social, revelando-se como um mecanismo que se vale, frequentemente, de estereótipos negativos relacionados ao gênero, raça, etnia, orientação sexual, nacionalidade ou idade de uma pessoa, sendo empregado de forma intencional para manipular e controlar a vítima.<br></br><br></br>
+                  De acordo com uma pesquisa publicada na American Sociological Review, a manifestação dessa prática de violência psicológica demonstra uma estreita associação com padrões de desigualdade social, revelando-se como um mecanismo que se vale, frequentemente, de estereótipos negativos relacionados ao gênero, raça, etnia, orientação sexual, nacionalidade ou idade de uma pessoa, sendo empregado de forma intencional para manipular e controlar a vítima.<br></br><br></br>
                   Esse padrão de manipulação acarreta uma série de consequências, tanto para a saúde como para a vida social da vítima, podendo, inclusive, resultar na perda da própria identidade, uma vez que induz a vítima a questionar sua própria percepção da realidade e como percebe sua própria existência. Além disso, está ligado ao isolamento social, pois a vítima pode ser levada a acreditar que é incompatível com o convívio social ou que não pode confiar nas outras pessoas. Como desdobramento, o gaslighting, frequentemente, desencadeia sérios problemas de saúde mental, incluindo depressão, transtorno de estresse pós-traumático e outras ramificações igualmente graves.
                 </span>
               </div>
@@ -366,7 +368,7 @@ function Exposition() {
           <div className={styles.each_slide_effect}>
             <div className={styles.audio_slide}>
               <img src={benching} />
-              <audio src={audio_teste} controls controlsList='noplaybackrate nodownload' />
+              <audio src={audio_benching} controls controlsList='noplaybackrate nodownload' />
             </div>
           </div>
           <div className={styles.each_slide_effect}>
@@ -531,12 +533,12 @@ function Exposition() {
           <div className={styles.each_slide_effect}>
             <div className={styles.audio_slide}>
               <img src={gaslighting} />
-              <audio src={audio_teste} controls controlsList='noplaybackrate nodownload' />
+              <audio src={audio_gaslighting1} controls controlsList='noplaybackrate nodownload' />
             </div>
           </div>
           <div className={styles.each_slide_effect}>
             <span className={styles.text_info}>
-              Distorção da Realidade, ou Gaslighting, consiste em manipular e confundir a vítima, fazendo com que ela passe a duvidar da própria sanidade e memória, perdendo o senso de percepção, identidade e autoestima. Dessa forma, o abusador pode exercer controle no comportamento e nas crenças da vítima. O parceiro abusivo age através de declarações e acusações baseadas em mentiras ou distorção da verdade, negação de fatos, podendo, por exemplo, questionar a memória da vítima, fingir não entender o que ela fala, sugerir ou declarar, explicitamente, que a vítima é ou está ficando “louca”.<br></br><br></br>
+              Distorção da Realidade, ou Gaslighting, consiste em manipular e confundir a vítima, fazendo com que ela passe a duvidar da própria sanidade e memória, perdendo o senso de percepção, identidade e autoestima. Dessa forma, o abusador pode exercer controle no comportamento e nas crenças da vítima. O parceiro abusivo age através de declarações e acusações baseadas em mentiras ou distorção da verdade e negação de fatos, podendo, por exemplo, questionar a memória da vítima, fingir não entender o que ela fala, sugerir ou declarar, explicitamente, que a vítima é ou está ficando “louca”.<br></br><br></br>
               O termo gaslighting tem origem no filme “Gas Light” de 1944, onde um homem tenta manipular sua esposa e fazê-la duvidar de sua própria sanidade, criando várias situações propositalmente, como forjar um furto para culpar a esposa e alterações na iluminação da casa, para deixá-la confusa. A tradução em português do nome do filme, é “Iluminação a gás”, que faz referência ao tipo de iluminação da casa do casal que possibilitaria a manipulação da intensidade da luz, o que era usado pelo marido como parte das situações que ele criava para deixar a esposa confusa e desestabilizá-la.
             </span>
           </div>
@@ -547,9 +549,9 @@ function Exposition() {
           </div>
           <div className={styles.each_slide_effect}>
             <div className={styles.audio_slide}>
-              <audio src={audio_teste} controls controlsList='noplaybackrate nodownload' />
+              <audio src={audio_gaslighting2} controls controlsList='noplaybackrate nodownload' />
               <span className={styles.text_info}>
-                De acordo com uma pesquisa publicada na American Sociological Review, a manifestação dessa prática de violência psicológica, demonstra uma estreita associação com padrões de desigualdade social, revelando-se como um mecanismo que se vale, frequentemente, de estereótipos negativos relacionados ao gênero, raça, etnia, orientação sexual, nacionalidade ou idade de uma pessoa, sendo empregado de forma intencional para manipular e controlar a vítima.<br></br><br></br>
+                De acordo com uma pesquisa publicada na American Sociological Review, a manifestação dessa prática de violência psicológica demonstra uma estreita associação com padrões de desigualdade social, revelando-se como um mecanismo que se vale, frequentemente, de estereótipos negativos relacionados ao gênero, raça, etnia, orientação sexual, nacionalidade ou idade de uma pessoa, sendo empregado de forma intencional para manipular e controlar a vítima.<br></br><br></br>
                 Esse padrão de manipulação acarreta uma série de consequências, tanto para a saúde como para a vida social da vítima, podendo, inclusive, resultar na perda da própria identidade, uma vez que induz a vítima a questionar sua própria percepção da realidade e como percebe sua própria existência. Além disso, está ligado ao isolamento social, pois a vítima pode ser levada a acreditar que é incompatível com o convívio social ou que não pode confiar nas outras pessoas. Como desdobramento, o gaslighting, frequentemente, desencadeia sérios problemas de saúde mental, incluindo depressão, transtorno de estresse pós-traumático e outras ramificações igualmente graves.
               </span>
             </div>
