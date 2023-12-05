@@ -77,8 +77,13 @@
     text-align: center;
     max-width: 70%;
   }
-
-
+  
+  .each_slide_effect .firstslide_text {
+    color: var(--secondary-color);
+    font-size: 1em;
+    text-align: center;
+    max-width: 850%;
+  }
 
   img {
     margin-bottom: 0.5rem;

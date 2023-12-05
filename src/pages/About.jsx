@@ -15,7 +15,7 @@ function About() {
         <p><b>Orientador: </b>Valdemir Queiroz</p>
         <p>Todos os desenhos contidos na exposição foram produzidos pela autora deste trabalho.</p><p>O texto completo, com mais detalhes da produção deste trabalho, metodologia, resultados e referências, está disponível e pode ser acessado através do botão abaixo.
         </p>
-        <a className={styles.btn} href='https://docs.google.com/document/d/1J9K-JG1N9esY8PoBg7EyWSU3IpYetpTtuphV861Ty8w/' target='_blank'>Acessar Texto do Projeto</a>
+        <a className={styles.btn} href='https://drive.google.com/file/d/1vh8b2RDKrNJ_mnovgbl5A2YtQ0HeWvE9' target='_blank'>Acessar Texto do Projeto</a>
 
       </div>
       <img src={heart} />

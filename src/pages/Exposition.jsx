@@ -51,6 +51,17 @@ function Exposition() {
       {/* ### DESKTOP ### */}
       <div className={styles.container_desktop}>
         <Fade indicators={indicators} autoplay={false} className={styles.content} >
+        <div className={styles.each_slide_effect}>
+            <div className={styles.last_slide}>
+              <span className={styles.lastslide_text}>
+                De acordo com a Lei Maria da Penha:
+                <br></br><br></br>
+                "A violência psicológica é entendida como qualquer conduta que lhe cause dano emocional e diminuição da autoestima ou que lhe prejudique e perturbe o pleno desenvolvimento ou que vise degradar ou controlar suas ações, comportamentos, crenças e decisões, mediante ameaça, constrangimento, humilhação, manipulação, isolamento, vigilância constante, perseguição contumaz, insulto, chantagem, violação de sua intimidade, ridicularização, exploração e limitação do direito de ir e vir ou qualquer outro meio que lhe cause prejuízo à saúde psicológica e à autodeterminação".
+              </span>
+              {/* <Link className={styles.btn} to='/about'>Sobre o Projeto</Link> */}
+
+            </div>
+          </div>
           {/* 1 -- INÍCIO BENCHING */}
           <div className={styles.each_slide_effect}>
             <div className={styles.intro_slide}>
@@ -366,6 +377,16 @@ function Exposition() {
 
       <div className={styles.container_mobile}>
         <Fade indicators={indicators} autoplay={false} className={styles.content} >
+        <div className={styles.each_slide_effect}>
+            <div className={styles.last_slide}>
+            <span className={styles.firstslide_text}>
+                De acordo com a Lei Maria da Penha:
+                <br></br><br></br>
+                "A violência psicológica é entendida como qualquer conduta que lhe cause dano emocional e diminuição da autoestima ou que lhe prejudique e perturbe o pleno desenvolvimento ou que vise degradar ou controlar suas ações, comportamentos, crenças e decisões, mediante ameaça, constrangimento, humilhação, manipulação, isolamento, vigilância constante, perseguição contumaz, insulto, chantagem, violação de sua intimidade, ridicularização, exploração e limitação do direito de ir e vir ou qualquer outro meio que lhe cause prejuízo à saúde psicológica e à autodeterminação".
+              </span>
+              {/* <Link className={styles.btn} to='/about'>Sobre o Projeto</Link> */}
+            </div>
+          </div>
           {/* 1 -- INÍCIO BENCHING */}
           <div className={styles.each_slide_effect}>
             <div className={styles.intro_slide}>
